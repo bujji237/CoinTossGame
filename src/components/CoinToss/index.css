@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(#e2a139, #f9d423);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-container {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #a35200;
+}
+.info {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 20px;
+}
+.image {
+  width: 200px;
+}
+.toss-btn {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #f9d423;
+  border-radius: 5px;
+  color: #a35200;
+}
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.counts-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  .info {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .image {
+    width: 400px;
+  }
+  .toss-btn {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .count {
+    font-size: 40px;
+  }
+}
